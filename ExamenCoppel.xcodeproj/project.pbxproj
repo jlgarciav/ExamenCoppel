@@ -1,0 +1,1031 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		498D3FB5EA69AAD1913EADF5 /* Pods_ExamenCoppel_ExamenCoppelUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3952E7F5E3CEDD196F02C9A /* Pods_ExamenCoppel_ExamenCoppelUITests.framework */; };
+		9C0C4DF324DCBA610093E0EA /* Flink-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9C0C4DEB24DCBA610093E0EA /* Flink-Medium.ttf */; };
+		9C0C4DF424DCBA610093E0EA /* Flink-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9C0C4DEC24DCBA610093E0EA /* Flink-Black.ttf */; };
+		9C0C4DF524DCBA610093E0EA /* Flink-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9C0C4DED24DCBA610093E0EA /* Flink-ExtraBold.ttf */; };
+		9C0C4DF624DCBA610093E0EA /* Flink-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9C0C4DEE24DCBA610093E0EA /* Flink-ExtraLight.ttf */; };
+		9C0C4DF724DCBA620093E0EA /* Flink-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9C0C4DEF24DCBA610093E0EA /* Flink-Bold.ttf */; };
+		9C0C4DF824DCBA620093E0EA /* Flink-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9C0C4DF024DCBA610093E0EA /* Flink-Regular.ttf */; };
+		9C0C4DF924DCBA620093E0EA /* Flink-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9C0C4DF124DCBA610093E0EA /* Flink-Light.ttf */; };
+		9C0C4DFA24DCBA620093E0EA /* Flink-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9C0C4DF224DCBA610093E0EA /* Flink-Thin.ttf */; };
+		9CA2BF2324DB49B000E8082C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA2BF2224DB49B000E8082C /* AppDelegate.swift */; };
+		9CA2BF2C24DB49B300E8082C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CA2BF2B24DB49B300E8082C /* Assets.xcassets */; };
+		9CA2BF2F24DB49B300E8082C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CA2BF2D24DB49B300E8082C /* LaunchScreen.storyboard */; };
+		9CA2BF3A24DB49B300E8082C /* ExamenCoppelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA2BF3924DB49B300E8082C /* ExamenCoppelTests.swift */; };
+		9CA2BF4524DB49B400E8082C /* ExamenCoppelUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA2BF4424DB49B400E8082C /* ExamenCoppelUITests.swift */; };
+		9CA2BF8324DB552000E8082C /* SupperHeroServiceMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA2BF8224DB552000E8082C /* SupperHeroServiceMapper.swift */; };
+		9CA2BF8924DB63B900E8082C /* RequestHandlers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA2BF8724DB63B900E8082C /* RequestHandlers.swift */; };
+		9CA2BF8A24DB63B900E8082C /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA2BF8824DB63B900E8082C /* Reachability.swift */; };
+		9CA2BF8F24DB652600E8082C /* SupperHero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA2BF8E24DB652600E8082C /* SupperHero.swift */; };
+		9CA2BF9124DB666700E8082C /* SuperHeroDetailRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA2BF9024DB666700E8082C /* SuperHeroDetailRouter.swift */; };
+		9CA2BF9324DB667800E8082C /* SuperHeroDetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA2BF9224DB667800E8082C /* SuperHeroDetailPresenter.swift */; };
+		9CA2BF9524DB668800E8082C /* SuperHeroDetailInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA2BF9424DB668800E8082C /* SuperHeroDetailInteractor.swift */; };
+		9CA2BF9724DB669B00E8082C /* SuperHeroDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA2BF9624DB669B00E8082C /* SuperHeroDetailView.swift */; };
+		9CA2BF9924DB66C800E8082C /* SuperHeroListRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA2BF9824DB66C800E8082C /* SuperHeroListRouter.swift */; };
+		9CA2BF9B24DB66D400E8082C /* SuperHeroListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA2BF9A24DB66D400E8082C /* SuperHeroListPresenter.swift */; };
+		9CA2BF9D24DB66DF00E8082C /* SuperHeroListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA2BF9C24DB66DF00E8082C /* SuperHeroListInteractor.swift */; };
+		9CA2BF9F24DB66E900E8082C /* SuperHeroListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA2BF9E24DB66E900E8082C /* SuperHeroListView.swift */; };
+		9CA2BFA124DB6A6E00E8082C /* SuperHeroListProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA2BFA024DB6A6E00E8082C /* SuperHeroListProtocols.swift */; };
+		9CA2BFA524DC676900E8082C /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA2BFA424DC676900E8082C /* UIImage+Extension.swift */; };
+		9CA2BFA724DC6AA800E8082C /* SuperHeroService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA2BFA624DC6AA800E8082C /* SuperHeroService.swift */; };
+		9CA2BFA924DC6AF400E8082C /* Endpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA2BFA824DC6AF400E8082C /* Endpoints.swift */; };
+		9CA2BFAD24DC98E600E8082C /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA2BFAC24DC98E600E8082C /* String+Extension.swift */; };
+		9CA2BFAF24DCA7A300E8082C /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA2BFAE24DCA7A300E8082C /* UIColor+Extension.swift */; };
+		9CA2BFB124DCAA3900E8082C /* SuperHeroDetailProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA2BFB024DCAA3900E8082C /* SuperHeroDetailProtocols.swift */; };
+		9CA2BFB324DCABFE00E8082C /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA2BFB224DCABFE00E8082C /* UIViewController+Extension.swift */; };
+		A6102E4672FB47A80BB095F7 /* Pods_ExamenCoppel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 148C712951A57ECCF3D1687C /* Pods_ExamenCoppel.framework */; };
+		D48C4A96B9ADFD3C32E58E96 /* Pods_ExamenCoppelTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95DF5C7D5FE2A396AA9799FA /* Pods_ExamenCoppelTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9CA2BF3624DB49B300E8082C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9CA2BF1724DB49B000E8082C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9CA2BF1E24DB49B000E8082C;
+			remoteInfo = ExamenCoppel;
+		};
+		9CA2BF4124DB49B400E8082C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9CA2BF1724DB49B000E8082C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9CA2BF1E24DB49B000E8082C;
+			remoteInfo = ExamenCoppel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04A98A0D3A1196A9BF219B7C /* Pods-ExamenCoppel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExamenCoppel.release.xcconfig"; path = "Target Support Files/Pods-ExamenCoppel/Pods-ExamenCoppel.release.xcconfig"; sourceTree = "<group>"; };
+		148C712951A57ECCF3D1687C /* Pods_ExamenCoppel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ExamenCoppel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3079BCCD3ED87DE64072F8A1 /* Pods-ExamenCoppel-ExamenCoppelUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExamenCoppel-ExamenCoppelUITests.debug.xcconfig"; path = "Target Support Files/Pods-ExamenCoppel-ExamenCoppelUITests/Pods-ExamenCoppel-ExamenCoppelUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		594534356A00F85A85CE6388 /* Pods-ExamenCoppelTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExamenCoppelTests.release.xcconfig"; path = "Target Support Files/Pods-ExamenCoppelTests/Pods-ExamenCoppelTests.release.xcconfig"; sourceTree = "<group>"; };
+		95DF5C7D5FE2A396AA9799FA /* Pods_ExamenCoppelTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ExamenCoppelTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C0C4DEB24DCBA610093E0EA /* Flink-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Flink-Medium.ttf"; sourceTree = "<group>"; };
+		9C0C4DEC24DCBA610093E0EA /* Flink-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Flink-Black.ttf"; sourceTree = "<group>"; };
+		9C0C4DED24DCBA610093E0EA /* Flink-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Flink-ExtraBold.ttf"; sourceTree = "<group>"; };
+		9C0C4DEE24DCBA610093E0EA /* Flink-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Flink-ExtraLight.ttf"; sourceTree = "<group>"; };
+		9C0C4DEF24DCBA610093E0EA /* Flink-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Flink-Bold.ttf"; sourceTree = "<group>"; };
+		9C0C4DF024DCBA610093E0EA /* Flink-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Flink-Regular.ttf"; sourceTree = "<group>"; };
+		9C0C4DF124DCBA610093E0EA /* Flink-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Flink-Light.ttf"; sourceTree = "<group>"; };
+		9C0C4DF224DCBA610093E0EA /* Flink-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Flink-Thin.ttf"; sourceTree = "<group>"; };
+		9CA2BF1F24DB49B000E8082C /* ExamenCoppel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExamenCoppel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CA2BF2224DB49B000E8082C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9CA2BF2B24DB49B300E8082C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9CA2BF2E24DB49B300E8082C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9CA2BF3024DB49B300E8082C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9CA2BF3524DB49B300E8082C /* ExamenCoppelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExamenCoppelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CA2BF3924DB49B300E8082C /* ExamenCoppelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExamenCoppelTests.swift; sourceTree = "<group>"; };
+		9CA2BF3B24DB49B300E8082C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9CA2BF4024DB49B400E8082C /* ExamenCoppelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExamenCoppelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CA2BF4424DB49B400E8082C /* ExamenCoppelUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExamenCoppelUITests.swift; sourceTree = "<group>"; };
+		9CA2BF4624DB49B400E8082C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9CA2BF8224DB552000E8082C /* SupperHeroServiceMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupperHeroServiceMapper.swift; sourceTree = "<group>"; };
+		9CA2BF8724DB63B900E8082C /* RequestHandlers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestHandlers.swift; sourceTree = "<group>"; };
+		9CA2BF8824DB63B900E8082C /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		9CA2BF8E24DB652600E8082C /* SupperHero.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupperHero.swift; sourceTree = "<group>"; };
+		9CA2BF9024DB666700E8082C /* SuperHeroDetailRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperHeroDetailRouter.swift; sourceTree = "<group>"; };
+		9CA2BF9224DB667800E8082C /* SuperHeroDetailPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperHeroDetailPresenter.swift; sourceTree = "<group>"; };
+		9CA2BF9424DB668800E8082C /* SuperHeroDetailInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperHeroDetailInteractor.swift; sourceTree = "<group>"; };
+		9CA2BF9624DB669B00E8082C /* SuperHeroDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperHeroDetailView.swift; sourceTree = "<group>"; };
+		9CA2BF9824DB66C800E8082C /* SuperHeroListRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperHeroListRouter.swift; sourceTree = "<group>"; };
+		9CA2BF9A24DB66D400E8082C /* SuperHeroListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperHeroListPresenter.swift; sourceTree = "<group>"; };
+		9CA2BF9C24DB66DF00E8082C /* SuperHeroListInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperHeroListInteractor.swift; sourceTree = "<group>"; };
+		9CA2BF9E24DB66E900E8082C /* SuperHeroListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperHeroListView.swift; sourceTree = "<group>"; };
+		9CA2BFA024DB6A6E00E8082C /* SuperHeroListProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperHeroListProtocols.swift; sourceTree = "<group>"; };
+		9CA2BFA424DC676900E8082C /* UIImage+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
+		9CA2BFA624DC6AA800E8082C /* SuperHeroService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperHeroService.swift; sourceTree = "<group>"; };
+		9CA2BFA824DC6AF400E8082C /* Endpoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoints.swift; sourceTree = "<group>"; };
+		9CA2BFAC24DC98E600E8082C /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		9CA2BFAE24DCA7A300E8082C /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		9CA2BFB024DCAA3900E8082C /* SuperHeroDetailProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperHeroDetailProtocols.swift; sourceTree = "<group>"; };
+		9CA2BFB224DCABFE00E8082C /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
+		9D8755425E54E98681E2EA2C /* Pods-ExamenCoppel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExamenCoppel.debug.xcconfig"; path = "Target Support Files/Pods-ExamenCoppel/Pods-ExamenCoppel.debug.xcconfig"; sourceTree = "<group>"; };
+		A3952E7F5E3CEDD196F02C9A /* Pods_ExamenCoppel_ExamenCoppelUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ExamenCoppel_ExamenCoppelUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4B9228879CCAB4016E99507 /* Pods-ExamenCoppelTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExamenCoppelTests.debug.xcconfig"; path = "Target Support Files/Pods-ExamenCoppelTests/Pods-ExamenCoppelTests.debug.xcconfig"; sourceTree = "<group>"; };
+		AB9749BF2CFFA45E25A88732 /* Pods-ExamenCoppel-ExamenCoppelUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExamenCoppel-ExamenCoppelUITests.release.xcconfig"; path = "Target Support Files/Pods-ExamenCoppel-ExamenCoppelUITests/Pods-ExamenCoppel-ExamenCoppelUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9CA2BF1C24DB49B000E8082C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6102E4672FB47A80BB095F7 /* Pods_ExamenCoppel.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CA2BF3224DB49B300E8082C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D48C4A96B9ADFD3C32E58E96 /* Pods_ExamenCoppelTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CA2BF3D24DB49B400E8082C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				498D3FB5EA69AAD1913EADF5 /* Pods_ExamenCoppel_ExamenCoppelUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1ACCF03B40C5ED4B3A66DCB0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				148C712951A57ECCF3D1687C /* Pods_ExamenCoppel.framework */,
+				A3952E7F5E3CEDD196F02C9A /* Pods_ExamenCoppel_ExamenCoppelUITests.framework */,
+				95DF5C7D5FE2A396AA9799FA /* Pods_ExamenCoppelTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		297ED1384659C0E8D47111FF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9D8755425E54E98681E2EA2C /* Pods-ExamenCoppel.debug.xcconfig */,
+				04A98A0D3A1196A9BF219B7C /* Pods-ExamenCoppel.release.xcconfig */,
+				3079BCCD3ED87DE64072F8A1 /* Pods-ExamenCoppel-ExamenCoppelUITests.debug.xcconfig */,
+				AB9749BF2CFFA45E25A88732 /* Pods-ExamenCoppel-ExamenCoppelUITests.release.xcconfig */,
+				A4B9228879CCAB4016E99507 /* Pods-ExamenCoppelTests.debug.xcconfig */,
+				594534356A00F85A85CE6388 /* Pods-ExamenCoppelTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		9C0C4DEA24DCBA450093E0EA /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				9C0C4DEC24DCBA610093E0EA /* Flink-Black.ttf */,
+				9C0C4DEF24DCBA610093E0EA /* Flink-Bold.ttf */,
+				9C0C4DED24DCBA610093E0EA /* Flink-ExtraBold.ttf */,
+				9C0C4DEE24DCBA610093E0EA /* Flink-ExtraLight.ttf */,
+				9C0C4DF124DCBA610093E0EA /* Flink-Light.ttf */,
+				9C0C4DEB24DCBA610093E0EA /* Flink-Medium.ttf */,
+				9C0C4DF024DCBA610093E0EA /* Flink-Regular.ttf */,
+				9C0C4DF224DCBA610093E0EA /* Flink-Thin.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		9CA2BF1624DB49B000E8082C = {
+			isa = PBXGroup;
+			children = (
+				9CA2BF2124DB49B000E8082C /* ExamenCoppel */,
+				9CA2BF3824DB49B300E8082C /* ExamenCoppelTests */,
+				9CA2BF4324DB49B400E8082C /* ExamenCoppelUITests */,
+				9CA2BF2024DB49B000E8082C /* Products */,
+				297ED1384659C0E8D47111FF /* Pods */,
+				1ACCF03B40C5ED4B3A66DCB0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9CA2BF2024DB49B000E8082C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9CA2BF1F24DB49B000E8082C /* ExamenCoppel.app */,
+				9CA2BF3524DB49B300E8082C /* ExamenCoppelTests.xctest */,
+				9CA2BF4024DB49B400E8082C /* ExamenCoppelUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9CA2BF2124DB49B000E8082C /* ExamenCoppel */ = {
+			isa = PBXGroup;
+			children = (
+				9CA2BF8524DB5F1500E8082C /* Supporting Files */,
+				9CA2BF8424DB5EFF00E8082C /* Classes */,
+				9CA2BF5424DB4A5C00E8082C /* Utilities */,
+				9CA2BF5224DB4A3200E8082C /* Resources */,
+				9CA2BF3024DB49B300E8082C /* Info.plist */,
+			);
+			path = ExamenCoppel;
+			sourceTree = "<group>";
+		};
+		9CA2BF3824DB49B300E8082C /* ExamenCoppelTests */ = {
+			isa = PBXGroup;
+			children = (
+				9CA2BF3924DB49B300E8082C /* ExamenCoppelTests.swift */,
+				9CA2BF3B24DB49B300E8082C /* Info.plist */,
+			);
+			path = ExamenCoppelTests;
+			sourceTree = "<group>";
+		};
+		9CA2BF4324DB49B400E8082C /* ExamenCoppelUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9CA2BF4424DB49B400E8082C /* ExamenCoppelUITests.swift */,
+				9CA2BF4624DB49B400E8082C /* Info.plist */,
+			);
+			path = ExamenCoppelUITests;
+			sourceTree = "<group>";
+		};
+		9CA2BF5224DB4A3200E8082C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9CA2BF2B24DB49B300E8082C /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		9CA2BF5424DB4A5C00E8082C /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				9CA2BF8824DB63B900E8082C /* Reachability.swift */,
+				9CA2BF8724DB63B900E8082C /* RequestHandlers.swift */,
+				9CA2BFA424DC676900E8082C /* UIImage+Extension.swift */,
+				9CA2BFAC24DC98E600E8082C /* String+Extension.swift */,
+				9CA2BFAE24DCA7A300E8082C /* UIColor+Extension.swift */,
+				9CA2BFB224DCABFE00E8082C /* UIViewController+Extension.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		9CA2BF5624DB4CDA00E8082C /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				9CA2BF5824DB4D5D00E8082C /* SuperHeroDetailModule */,
+				9CA2BF5724DB4D5200E8082C /* SuperHeroListModule */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		9CA2BF5724DB4D5200E8082C /* SuperHeroListModule */ = {
+			isa = PBXGroup;
+			children = (
+				9CA2BF7624DB4E4800E8082C /* View */,
+				9CA2BF7224DB4E2E00E8082C /* Interactor */,
+				9CA2BF7324DB4E3500E8082C /* Presenter */,
+				9CA2BF7124DB4E2200E8082C /* Entity */,
+				9CA2BF7524DB4E4300E8082C /* Router */,
+			);
+			path = SuperHeroListModule;
+			sourceTree = "<group>";
+		};
+		9CA2BF5824DB4D5D00E8082C /* SuperHeroDetailModule */ = {
+			isa = PBXGroup;
+			children = (
+				9CA2BF7724DB4ECF00E8082C /* View */,
+				9CA2BF7824DB4ED300E8082C /* Interactor */,
+				9CA2BF7924DB4EE300E8082C /* Presenter */,
+				9CA2BF7A24DB4EE800E8082C /* Entity */,
+				9CA2BF7B24DB4EEE00E8082C /* Router */,
+			);
+			path = SuperHeroDetailModule;
+			sourceTree = "<group>";
+		};
+		9CA2BF7124DB4E2200E8082C /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				9CA2BF8E24DB652600E8082C /* SupperHero.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		9CA2BF7224DB4E2E00E8082C /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				9CA2BF9C24DB66DF00E8082C /* SuperHeroListInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		9CA2BF7324DB4E3500E8082C /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				9CA2BF9A24DB66D400E8082C /* SuperHeroListPresenter.swift */,
+				9CA2BFA024DB6A6E00E8082C /* SuperHeroListProtocols.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		9CA2BF7524DB4E4300E8082C /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				9CA2BF9824DB66C800E8082C /* SuperHeroListRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		9CA2BF7624DB4E4800E8082C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9CA2BF9E24DB66E900E8082C /* SuperHeroListView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9CA2BF7724DB4ECF00E8082C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9CA2BF9624DB669B00E8082C /* SuperHeroDetailView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9CA2BF7824DB4ED300E8082C /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				9CA2BF9424DB668800E8082C /* SuperHeroDetailInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		9CA2BF7924DB4EE300E8082C /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				9CA2BF9224DB667800E8082C /* SuperHeroDetailPresenter.swift */,
+				9CA2BFB024DCAA3900E8082C /* SuperHeroDetailProtocols.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		9CA2BF7A24DB4EE800E8082C /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		9CA2BF7B24DB4EEE00E8082C /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				9CA2BF9024DB666700E8082C /* SuperHeroDetailRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		9CA2BF7D24DB4F8D00E8082C /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				9CA2BF8D24DB650100E8082C /* Entities */,
+				9CA2BF8C24DB64C700E8082C /* Endpoints */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		9CA2BF8424DB5EFF00E8082C /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				9CA2BF5624DB4CDA00E8082C /* Modules */,
+				9CA2BF8B24DB648B00E8082C /* Services */,
+				9CA2BF8624DB5F4F00E8082C /* App */,
+				9CA2BF7D24DB4F8D00E8082C /* Common */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		9CA2BF8524DB5F1500E8082C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9C0C4DEA24DCBA450093E0EA /* Fonts */,
+				9CA2BF2D24DB49B300E8082C /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9CA2BF8624DB5F4F00E8082C /* App */ = {
+			isa = PBXGroup;
+			children = (
+				9CA2BF2224DB49B000E8082C /* AppDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		9CA2BF8B24DB648B00E8082C /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				9CA2BFA624DC6AA800E8082C /* SuperHeroService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		9CA2BF8C24DB64C700E8082C /* Endpoints */ = {
+			isa = PBXGroup;
+			children = (
+				9CA2BFA824DC6AF400E8082C /* Endpoints.swift */,
+			);
+			path = Endpoints;
+			sourceTree = "<group>";
+		};
+		9CA2BF8D24DB650100E8082C /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				9CA2BF8224DB552000E8082C /* SupperHeroServiceMapper.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9CA2BF1E24DB49B000E8082C /* ExamenCoppel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9CA2BF4924DB49B400E8082C /* Build configuration list for PBXNativeTarget "ExamenCoppel" */;
+			buildPhases = (
+				5E9D969936AD525990E61232 /* [CP] Check Pods Manifest.lock */,
+				9CA2BF1B24DB49B000E8082C /* Sources */,
+				9CA2BF1C24DB49B000E8082C /* Frameworks */,
+				9CA2BF1D24DB49B000E8082C /* Resources */,
+				2D3A3BFE47A4063A98546FE6 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ExamenCoppel;
+			productName = ExamenCoppel;
+			productReference = 9CA2BF1F24DB49B000E8082C /* ExamenCoppel.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9CA2BF3424DB49B300E8082C /* ExamenCoppelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9CA2BF4C24DB49B400E8082C /* Build configuration list for PBXNativeTarget "ExamenCoppelTests" */;
+			buildPhases = (
+				8F62CB8C08A851667225311C /* [CP] Check Pods Manifest.lock */,
+				9CA2BF3124DB49B300E8082C /* Sources */,
+				9CA2BF3224DB49B300E8082C /* Frameworks */,
+				9CA2BF3324DB49B300E8082C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9CA2BF3724DB49B300E8082C /* PBXTargetDependency */,
+			);
+			name = ExamenCoppelTests;
+			productName = ExamenCoppelTests;
+			productReference = 9CA2BF3524DB49B300E8082C /* ExamenCoppelTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9CA2BF3F24DB49B400E8082C /* ExamenCoppelUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9CA2BF4F24DB49B400E8082C /* Build configuration list for PBXNativeTarget "ExamenCoppelUITests" */;
+			buildPhases = (
+				9A279667F590BB884F847269 /* [CP] Check Pods Manifest.lock */,
+				9CA2BF3C24DB49B400E8082C /* Sources */,
+				9CA2BF3D24DB49B400E8082C /* Frameworks */,
+				9CA2BF3E24DB49B400E8082C /* Resources */,
+				3F828AEB1EA441D806BBACA9 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9CA2BF4224DB49B400E8082C /* PBXTargetDependency */,
+			);
+			name = ExamenCoppelUITests;
+			productName = ExamenCoppelUITests;
+			productReference = 9CA2BF4024DB49B400E8082C /* ExamenCoppelUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9CA2BF1724DB49B000E8082C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "José Luis García";
+				TargetAttributes = {
+					9CA2BF1E24DB49B000E8082C = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					9CA2BF3424DB49B300E8082C = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 9CA2BF1E24DB49B000E8082C;
+					};
+					9CA2BF3F24DB49B400E8082C = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 9CA2BF1E24DB49B000E8082C;
+					};
+				};
+			};
+			buildConfigurationList = 9CA2BF1A24DB49B000E8082C /* Build configuration list for PBXProject "ExamenCoppel" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9CA2BF1624DB49B000E8082C;
+			productRefGroup = 9CA2BF2024DB49B000E8082C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9CA2BF1E24DB49B000E8082C /* ExamenCoppel */,
+				9CA2BF3424DB49B300E8082C /* ExamenCoppelTests */,
+				9CA2BF3F24DB49B400E8082C /* ExamenCoppelUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9CA2BF1D24DB49B000E8082C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C0C4DFA24DCBA620093E0EA /* Flink-Thin.ttf in Resources */,
+				9C0C4DF924DCBA620093E0EA /* Flink-Light.ttf in Resources */,
+				9C0C4DF824DCBA620093E0EA /* Flink-Regular.ttf in Resources */,
+				9CA2BF2F24DB49B300E8082C /* LaunchScreen.storyboard in Resources */,
+				9C0C4DF424DCBA610093E0EA /* Flink-Black.ttf in Resources */,
+				9C0C4DF324DCBA610093E0EA /* Flink-Medium.ttf in Resources */,
+				9CA2BF2C24DB49B300E8082C /* Assets.xcassets in Resources */,
+				9C0C4DF724DCBA620093E0EA /* Flink-Bold.ttf in Resources */,
+				9C0C4DF524DCBA610093E0EA /* Flink-ExtraBold.ttf in Resources */,
+				9C0C4DF624DCBA610093E0EA /* Flink-ExtraLight.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CA2BF3324DB49B300E8082C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CA2BF3E24DB49B400E8082C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2D3A3BFE47A4063A98546FE6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ExamenCoppel/Pods-ExamenCoppel-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ExamenCoppel/Pods-ExamenCoppel-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ExamenCoppel/Pods-ExamenCoppel-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3F828AEB1EA441D806BBACA9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ExamenCoppel-ExamenCoppelUITests/Pods-ExamenCoppel-ExamenCoppelUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ExamenCoppel-ExamenCoppelUITests/Pods-ExamenCoppel-ExamenCoppelUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ExamenCoppel-ExamenCoppelUITests/Pods-ExamenCoppel-ExamenCoppelUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5E9D969936AD525990E61232 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ExamenCoppel-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8F62CB8C08A851667225311C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ExamenCoppelTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9A279667F590BB884F847269 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ExamenCoppel-ExamenCoppelUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9CA2BF1B24DB49B000E8082C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CA2BF9F24DB66E900E8082C /* SuperHeroListView.swift in Sources */,
+				9CA2BFAF24DCA7A300E8082C /* UIColor+Extension.swift in Sources */,
+				9CA2BF9924DB66C800E8082C /* SuperHeroListRouter.swift in Sources */,
+				9CA2BF8324DB552000E8082C /* SupperHeroServiceMapper.swift in Sources */,
+				9CA2BFA724DC6AA800E8082C /* SuperHeroService.swift in Sources */,
+				9CA2BF9324DB667800E8082C /* SuperHeroDetailPresenter.swift in Sources */,
+				9CA2BF9524DB668800E8082C /* SuperHeroDetailInteractor.swift in Sources */,
+				9CA2BF9B24DB66D400E8082C /* SuperHeroListPresenter.swift in Sources */,
+				9CA2BF2324DB49B000E8082C /* AppDelegate.swift in Sources */,
+				9CA2BF8F24DB652600E8082C /* SupperHero.swift in Sources */,
+				9CA2BF9724DB669B00E8082C /* SuperHeroDetailView.swift in Sources */,
+				9CA2BFAD24DC98E600E8082C /* String+Extension.swift in Sources */,
+				9CA2BF9124DB666700E8082C /* SuperHeroDetailRouter.swift in Sources */,
+				9CA2BFA124DB6A6E00E8082C /* SuperHeroListProtocols.swift in Sources */,
+				9CA2BFA524DC676900E8082C /* UIImage+Extension.swift in Sources */,
+				9CA2BF9D24DB66DF00E8082C /* SuperHeroListInteractor.swift in Sources */,
+				9CA2BF8924DB63B900E8082C /* RequestHandlers.swift in Sources */,
+				9CA2BF8A24DB63B900E8082C /* Reachability.swift in Sources */,
+				9CA2BFB324DCABFE00E8082C /* UIViewController+Extension.swift in Sources */,
+				9CA2BFB124DCAA3900E8082C /* SuperHeroDetailProtocols.swift in Sources */,
+				9CA2BFA924DC6AF400E8082C /* Endpoints.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CA2BF3124DB49B300E8082C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CA2BF3A24DB49B300E8082C /* ExamenCoppelTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CA2BF3C24DB49B400E8082C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CA2BF4524DB49B400E8082C /* ExamenCoppelUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9CA2BF3724DB49B300E8082C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9CA2BF1E24DB49B000E8082C /* ExamenCoppel */;
+			targetProxy = 9CA2BF3624DB49B300E8082C /* PBXContainerItemProxy */;
+		};
+		9CA2BF4224DB49B400E8082C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9CA2BF1E24DB49B000E8082C /* ExamenCoppel */;
+			targetProxy = 9CA2BF4124DB49B400E8082C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9CA2BF2D24DB49B300E8082C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9CA2BF2E24DB49B300E8082C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9CA2BF4724DB49B400E8082C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9CA2BF4824DB49B400E8082C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9CA2BF4A24DB49B400E8082C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D8755425E54E98681E2EA2C /* Pods-ExamenCoppel.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J4LL7ML69T;
+				INFOPLIST_FILE = ExamenCoppel/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mx.joseluisgarciavaldez.ExamenCoppel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		9CA2BF4B24DB49B400E8082C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04A98A0D3A1196A9BF219B7C /* Pods-ExamenCoppel.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J4LL7ML69T;
+				INFOPLIST_FILE = ExamenCoppel/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mx.joseluisgarciavaldez.ExamenCoppel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		9CA2BF4D24DB49B400E8082C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4B9228879CCAB4016E99507 /* Pods-ExamenCoppelTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 62GH6Q6RJ7;
+				INFOPLIST_FILE = ExamenCoppelTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mx.joseluisgarciavaldez.ExamenCoppelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ExamenCoppel.app/ExamenCoppel";
+			};
+			name = Debug;
+		};
+		9CA2BF4E24DB49B400E8082C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 594534356A00F85A85CE6388 /* Pods-ExamenCoppelTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 62GH6Q6RJ7;
+				INFOPLIST_FILE = ExamenCoppelTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mx.joseluisgarciavaldez.ExamenCoppelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ExamenCoppel.app/ExamenCoppel";
+			};
+			name = Release;
+		};
+		9CA2BF5024DB49B400E8082C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3079BCCD3ED87DE64072F8A1 /* Pods-ExamenCoppel-ExamenCoppelUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 62GH6Q6RJ7;
+				INFOPLIST_FILE = ExamenCoppelUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mx.joseluisgarciavaldez.ExamenCoppelUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ExamenCoppel;
+			};
+			name = Debug;
+		};
+		9CA2BF5124DB49B400E8082C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB9749BF2CFFA45E25A88732 /* Pods-ExamenCoppel-ExamenCoppelUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 62GH6Q6RJ7;
+				INFOPLIST_FILE = ExamenCoppelUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mx.joseluisgarciavaldez.ExamenCoppelUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ExamenCoppel;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9CA2BF1A24DB49B000E8082C /* Build configuration list for PBXProject "ExamenCoppel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CA2BF4724DB49B400E8082C /* Debug */,
+				9CA2BF4824DB49B400E8082C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9CA2BF4924DB49B400E8082C /* Build configuration list for PBXNativeTarget "ExamenCoppel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CA2BF4A24DB49B400E8082C /* Debug */,
+				9CA2BF4B24DB49B400E8082C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9CA2BF4C24DB49B400E8082C /* Build configuration list for PBXNativeTarget "ExamenCoppelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CA2BF4D24DB49B400E8082C /* Debug */,
+				9CA2BF4E24DB49B400E8082C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9CA2BF4F24DB49B400E8082C /* Build configuration list for PBXNativeTarget "ExamenCoppelUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CA2BF5024DB49B400E8082C /* Debug */,
+				9CA2BF5124DB49B400E8082C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9CA2BF1724DB49B000E8082C /* Project object */;
+}

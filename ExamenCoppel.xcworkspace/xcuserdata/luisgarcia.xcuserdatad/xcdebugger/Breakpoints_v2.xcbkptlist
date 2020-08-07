@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "5C0F1770-EAD1-4FDD-8FC3-BC249F57FE69"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "29F30687-2027-4CB1-AE9E-9237F67B1476"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ExamenCoppel/Classes/App/AppDelegate.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "application(_:didFinishLaunchingWithOptions:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "701794BF-4D87-4C2E-BDCA-3D04C3159BF4"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ExamenCoppel/Classes/Modules/SuperHeroListModule/Router/SuperHeroListRouter.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "showSuperHeroList()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0A233F45-4232-40BE-90C1-BD892A78E05C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ExamenCoppel/Classes/Modules/SuperHeroListModule/Interactor/SuperHeroListInteractor.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
+            landmarkName = "getSuperHeroByName()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "81954E8F-F9C9-4F9F-9509-276D8D9DE26F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ExamenCoppel/Classes/Modules/SuperHeroListModule/Interactor/SuperHeroListInteractor.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "getSuperHeroByName()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7BBEAB29-0840-4351-A3F9-0CFB95F25E41"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ExamenCoppel/Classes/Services/SuperHeroService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
+            landmarkName = "getSuperHeroByNameService(success:failure:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C80BA732-A9AB-4B19-BC9C-4D09C24607C9"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ExamenCoppel/Classes/Services/SuperHeroService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "getSuperHeroByNameService(success:failure:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "15668DCC-C4A8-4293-8E12-9C7236DDAC34"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ExamenCoppel/Classes/Modules/SuperHeroListModule/Presenter/SuperHeroListPresenter.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "68"
+            endingLineNumber = "68"
+            landmarkName = "requestSuperHeroListSuccess(superheroList:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "15668DCC-C4A8-4293-8E12-9C7236DDAC34 - 8a9443131c28de1b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ExamenCoppel.SuperHeroListPresenter.requestSuperHeroListSuccess(superheroList: Swift.Array&lt;ExamenCoppel.SuperHero&gt;) -&gt; ()"
+                  moduleName = "ExamenCoppel"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/luisgarcia/Desktop/ExamenCoppel/ExamenCoppel/ExamenCoppel/ExamenCoppel/Classes/Modules/SuperHeroListModule/Presenter/SuperHeroListPresenter.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "66"
+                  endingLineNumber = "66"
+                  offsetFromSymbolStart = "136">
+               </Location>
+               <Location
+                  uuid = "15668DCC-C4A8-4293-8E12-9C7236DDAC34 - 85708f96474d1c52"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 ((offset: Swift.Int, element: ExamenCoppel.SuperHero)) -&gt; Swift.Optional&lt;ExamenCoppel.SuperHero&gt; in ExamenCoppel.SuperHeroListPresenter.requestSuperHeroListSuccess(superheroList: Swift.Array&lt;ExamenCoppel.SuperHero&gt;) -&gt; ()"
+                  moduleName = "ExamenCoppel"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/luisgarcia/Desktop/ExamenCoppel/ExamenCoppel/ExamenCoppel/ExamenCoppel/Classes/Modules/SuperHeroListModule/Presenter/SuperHeroListPresenter.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "66"
+                  endingLineNumber = "66"
+                  offsetFromSymbolStart = "108">
+               </Location>
+               <Location
+                  uuid = "15668DCC-C4A8-4293-8E12-9C7236DDAC34 - 717683f35a822a53"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (ExamenCoppel.SuperHero, ExamenCoppel.SuperHero) -&gt; Swift.Bool in ExamenCoppel.SuperHeroListPresenter.requestSuperHeroListSuccess(superheroList: Swift.Array&lt;ExamenCoppel.SuperHero&gt;) -&gt; ()"
+                  moduleName = "ExamenCoppel"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/luisgarcia/Desktop/ExamenCoppel/ExamenCoppel/ExamenCoppel/ExamenCoppel/Classes/Modules/SuperHeroListModule/Presenter/SuperHeroListPresenter.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "67"
+                  endingLineNumber = "67"
+                  offsetFromSymbolStart = "116">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "97BC37DA-254B-47CE-A6DB-BC1C71732834"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ExamenCoppel/Classes/Modules/SuperHeroListModule/View/SuperHeroListView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "71"
+            endingLineNumber = "71"
+            landmarkName = "onFetchSuperHeroSuccess()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BB7AA213-CBE6-4715-991C-A2BEC060A7D8"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ExamenCoppel/Classes/Modules/SuperHeroListModule/View/SuperHeroListView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "318"
+            endingLineNumber = "318"
+            landmarkName = "updateSearchResults(for:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0E1DABA4-C002-4C93-BD11-61453FEB0020"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ExamenCoppel/Classes/Modules/SuperHeroListModule/View/SuperHeroListView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "314"
+            endingLineNumber = "314"
+            landmarkName = "updateSearchResults(for:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

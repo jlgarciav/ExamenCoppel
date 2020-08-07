@@ -1,0 +1,6 @@
+framework module Pods_ExamenCoppelTests {
+  umbrella header "Pods-ExamenCoppelTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
